@@ -1,0 +1,92 @@
+# data structure
+'''
+sets
+tuples
+list
+dictionary
+'''
+# 1) list
+L=["Python",2,8,2,9,8,"Java"]
+print(L)
+
+'''
+performing a List operations:
+append
+extend
+remove
+count
+'''
+L=["python",2,8,2,9,8,"Java"]
+L.append("C")
+print(L)
+L.count(2)
+print(L)
+L.remove("Java")
+print(L)
+
+# 2) tuples
+t=()
+print(type(t))
+t=(1,2,3)
+print(t)
+print(max(t))
+print(min(t))
+print(sum(t))
+
+'''
+perform a operations tuples
+repetation
+concatenation
+'''
+# concatenation
+t1=(1,2)
+t2=(3,4)
+print(t1+t2)
+
+# repetation
+t=(3,5)
+print(t*2)
+
+
+# 3) sets
+s={}
+print(type(s))
+s={1,5,4,2,3,9,6,4,2,10}
+print(s)
+
+'''
+to perform a tuples methods
+add()
+update()
+remove()
+'''
+s={1,2,10,4,5,9,3,2}
+s.add(19)
+print(s)
+s.remove(5)
+print(s)
+'''
+performing a tuples operations
+union
+intersection
+difference
+'''
+s1={1,2,3}
+s2={2,3,4}
+print(s1.union(s2))
+print(s1.intersection(s2))
+print(s1.difference(s2))
+
+# 4) dictionary
+d={}
+print(type(d))
+d={1:'python',2:'java','value':'c'}
+print(d)
+'''
+performing a methods dictionary
+values()
+gets()
+'''
+d={1:'python',2:'java','value':'c'}
+print(d.get(1))
+print(d.keys())
